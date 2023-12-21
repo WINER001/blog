@@ -1,0 +1,11 @@
+- class_name: 服务
+  class_desc: 第三方合作服务
+  link_list:
+    - name: 石嘉修图
+      link: https://yu-chengji.gitee.io/shi_ja_ying_xiang
+      avatar: ./img/xiaochou.jpg
+      descr: 修图工作室
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+      descr: 中國最大社交分享平台

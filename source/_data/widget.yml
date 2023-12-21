@@ -1,0 +1,64 @@
+# top:
+#   - class_name: CLASSNAME
+#     id_name:  IDNAME
+#     name: API测试
+#     icon: fas fa-heartbeat
+#     html: '<!DOCTYPE html>
+# <html>
+# <head>
+#   <title>输入你的名字...</title>
+#   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+# </head>
+# <body>
+#   <h1>输入你的名字...</h1>
+#   <input type="text" id="input" placeholder="请输入内容">
+#   <button onclick="sendRequest()">提交</button>
+#   <p id="result"></p >
+
+#   <script>
+#     function sendRequest() {
+#       let input = document.getElementById("input").value;
+#       let xhr = new XMLHttpRequest();
+#       xhr.onreadystatechange = function() {
+#         if (xhr.readyState === 4 && xhr.status === 200) {
+#           document.getElementById("result").innerHTML = xhr.responseText;
+#         }
+#       };
+#       xhr.open("POST", "http://101.42.229.55:8081/hello", true);
+#       xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+#       xhr.send(JSON.stringify({input: input}));
+#     }
+#   </script>
+# </body>
+# </html>
+# '
+
+#   - class_name: CLASSNAME
+#     id_name:  IDNAME
+#     name: 石嘉影像
+#     icon: fas fa-heartbeat
+#     html: '<!DOCTYPE html>
+# <html>
+# <head>
+#   <title>输入你的名字...</title>
+#   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+# </head>
+# <body>
+#   <div align="center">
+#     <a href="http://101.42.229.55/shijia" title="石嘉影像：修图工作室">
+#     <img src="./img/50.jpg" width="200" height="200">
+#     </a>
+#     <a href="http://101.42.229.55/shijia" title="石嘉影像：修图工作室">
+#     <h4>石嘉影像：修图工作室</h4>
+#     </a>
+#   </div>
+
+#   </body>
+# </html>'
+# bottom:
+#   - class_name:
+#     id_name:
+#     name:
+#     icon:
+#     order:
+#     html:
