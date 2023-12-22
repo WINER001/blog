@@ -406,12 +406,12 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   use: Valine
-  text: true # Display the comment name next to the button
+  text: false # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: true # Display comment count in post's top_img
-  card_post_count: true # Display comment count in Home Page
+  lazyload: true
+  count: false # Display comment count in post's top_img
+  card_post_count: false # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -447,7 +447,7 @@ gitalk:
 valine:
   appId: SzpnJzwXII3uaCFeESLd3hSd-gzGzoHsz
   appKey: OxZonMdP5aLr9BrvuGtvNBZE
-  avatar: ./img/xiaochou.jpg # gravatar style https://valine.js.org/#/avatar
+  avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: https://szpnjzwx.lc-cn-n1-shared.com
   bg: # valine background
   visitor: false
@@ -533,8 +533,8 @@ chatra:
 # tidio
 # https://www.tidio.com/
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: rbzzfjnip5yhshcg7ecbhnkazmdfizlp
 
 # daovoice
 # http://dashboard.daovoice.io/app
